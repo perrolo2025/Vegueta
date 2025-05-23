@@ -138,7 +138,7 @@ const handleSubmit = (e) => {
           <p className="text-center text-sm text-gray-600 mb-2">{t.preview}</p>
           <div className="flex flex-col items-center gap-4">
             <img
-              src={isEnglish ? '/no-preview-en.png' : '/no-preview-es.png'}
+              src={isEnglish ? '/imagen-no-disponible.png' : '/no-preview-es.png'}
               alt="preview"
               className="w-full max-w-md h-auto rounded-lg border shadow"
             />
