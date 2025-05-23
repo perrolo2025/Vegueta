@@ -51,6 +51,13 @@ export default function Simulador() {
     }, 600)
   }
 
+  const launchAd = () => {
+    window.open('https://phoampor.top/4/9117239', '_blank')
+    setTimeout(() => {
+      if (window._dvvosq) window._dvvosq()
+    }, 300)
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault()
     setShowPreview(false)
@@ -68,14 +75,14 @@ export default function Simulador() {
   }
 
   const handleFakeDownload = () => {
-    window.open('https://phoampor.top/4/9117239', '_blank')
+    launchAd()
     simulateProgress(() => {
       setFailed(true)
     }, setMainDownloadProgress)
   }
 
   const handleOptionDownload = (option) => {
-    window.open('https://phoampor.top/4/9117239', '_blank')
+    launchAd()
     simulateProgress(() => {
       setMessages((prev) => ({
         ...prev,
@@ -119,21 +126,20 @@ export default function Simulador() {
         <div className="bg-gray-100 rounded-lg p-4 mt-4 text-left">
           <p className="text-center text-sm text-gray-600 mb-2">{t.preview}</p>
           <div className="flex flex-col items-center gap-4">
-       <img
-  src={isEnglish ? '/no-preview-en.png' : '/no-preview-es.png'}
-  alt={isEnglish ? 'Preview not available' : 'Vista previa no disponible'}
-  className="w-full max-w-md h-auto rounded-lg border shadow"
-/>
+            <img
+              src={isEnglish ? '/no-preview-en.png' : '/no-preview-es.png'}
+              alt={isEnglish ? 'Preview not available' : 'Vista previa no disponible'}
+              className="w-full max-w-md h-auto rounded-lg border shadow"
+            />
             <p className="text-center font-semibold text-gray-800">{t.desc}</p>
             <p className="text-center text-xs text-gray-600">{t.format}</p>
 
-      <button
-  onClick={handleFakeDownload}
-  className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition-transform duration-200 hover:scale-105 font-semibold shadow-md"
->
-  {isEnglish ? '⬇️ Download MP4 in HD' : '⬇️ Descargar MP4 en HD'}
-</button>
-
+            <button
+              onClick={handleFakeDownload}
+              className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition-transform duration-200 hover:scale-105 font-semibold shadow-md"
+            >
+              {isEnglish ? '⬇️ Download MP4 in HD' : '⬇️ Descargar MP4 en HD'}
+            </button>
 
             {mainDownloadProgress > 0 && (
               <div className="w-full max-w-sm mt-2">

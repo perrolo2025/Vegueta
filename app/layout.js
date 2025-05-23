@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
+import Script from "next/script";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,10 +20,30 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased bg-white text-gray-900">
+    <html lang="es">
+      <body>
         {children}
+  
+
+        <Script
+          id="monetag-popunder"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var script = document.createElement('script');
+                script.src = "//madurird.com/tag.min.js";
+                script.setAttribute("data-zone", "9117120"); // <-- tu ID de zona Popunder
+                script.setAttribute("data-cfasync", "false");
+                script.async = true;
+                script.onerror = function () { window._lxwahpa && window._lxwahpa(); };
+                script.onload = function () { window._dvvosq && window._dvvosq(); };
+                document.head.appendChild(script);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
-  )
+  );
 }
