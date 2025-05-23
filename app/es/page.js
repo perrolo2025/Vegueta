@@ -88,12 +88,11 @@ export default function HomePageES() {
       '3JZ_D3ELwOQ',
     ].map((id) => (
       <div key={id} className="rounded-lg overflow-hidden shadow-lg max-w-xs">
-<Image
+<img
   src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
   alt={`Miniatura del video ${id}`}
   title="Haz clic para previsualizar"
-  aria-label={`Video de YouTube ${id}`}
-  width={480} // puedes ajustarlo según el tamaño real que uses
+  width={480}
   height={360}
   className="w-full h-auto"
 />
