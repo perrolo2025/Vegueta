@@ -37,13 +37,18 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
         {/* Logo + Marca */}
-        <Link
-          href={isEnglish ? '/en' : '/es'}
-          className="flex items-center gap-2 text-xl sm:text-2xl font-extrabold text-red-600 hover:text-red-700 transition"
-        >
-          <Youtube className="w-6 h-6 sm:w-7 sm:h-7" />
-          <span>SaveClipt</span>
-        </Link>
+<Link
+  href={isEnglish ? '/en' : '/es'}
+  className="flex items-center gap-2 text-xl sm:text-2xl font-extrabold text-red-600 hover:text-red-700 transition"
+>
+  <img
+    src="/favicon-v6.png"
+    alt="SaveClipt logo"
+    className="w-6 h-6 sm:w-7 sm:h-7 object-contain"
+  />
+  <span>SaveClipt</span>
+</Link>
+
 
         {/* Menú desktop */}
         <nav className="hidden sm:flex gap-6 text-sm font-medium">
