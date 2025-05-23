@@ -1,11 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 
 export default function Simulador() {
   const pathname = usePathname()
   const isEnglish = pathname.startsWith('/en')
+  const lastPopunderTime = useRef(0)
 
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
@@ -51,11 +52,18 @@ export default function Simulador() {
     }, 600)
   }
 
-  const launchAd = () => {
+  const launchPopunder = () => {
+    const now = Date.now()
+    if (now - lastPopunderTime.current >= 30000) {
+      lastPopunderTime.current = now
+      if (window._dvvosq) {
+        setTimeout(() => window._dvvosq(), 300) // leve delay
+      }
+    }
+  }
+
+  const launchDirectLink = () => {
     window.open('https://phoampor.top/4/9117239', '_blank')
-    setTimeout(() => {
-      if (window._dvvosq) window._dvvosq()
-    }, 300)
   }
 
   const handleSubmit = (e) => {
@@ -75,14 +83,16 @@ export default function Simulador() {
   }
 
   const handleFakeDownload = () => {
-    launchAd()
+    launchDirectLink()
+    launchPopunder()
     simulateProgress(() => {
       setFailed(true)
     }, setMainDownloadProgress)
   }
 
   const handleOptionDownload = (option) => {
-    launchAd()
+    launchDirectLink()
+    launchPopunder()
     simulateProgress(() => {
       setMessages((prev) => ({
         ...prev,
