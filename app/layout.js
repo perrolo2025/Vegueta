@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
-import Script from "next/script";
-
+import Script from "next/script"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,6 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SaveClipt",
   description: "Fast and secure YouTube downloader.",
+  metadataBase: new URL("https://saveclipt.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-v6.png", type: "image/png" },
+    ],
+    apple: "/favicon-v6.png",
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -40,7 +47,7 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              if (window.innerWidth <= 768) {
+              if (typeof window !== 'undefined' && window.innerWidth <= 768) {
                 (function(d,z,s){
                   s.src='https://'+d+'/401/'+z;
                   try{(document.body||document.documentElement).appendChild(s)}
@@ -54,5 +61,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
-

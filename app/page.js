@@ -4,16 +4,12 @@ export const metadata = {
   title: 'SaveClipt – Convertidor y Descargador de Videos YouTube en MP4 y MP3',
   description:
     'Bienvenido a SaveClipt. Descarga videos de YouTube en MP4 HD o MP3 320kbps. Rápido, gratis, sin apps y compatible con todos los dispositivos.',
-  metadataBase: new URL('https://saveclipt.com'),
   alternates: {
     canonical: 'https://saveclipt.com',
     languages: {
       es: 'https://saveclipt.com/es',
       en: 'https://saveclipt.com/en',
     },
-  },
-  icons: {
-    icon: '/favicon-v6.png',
   },
   openGraph: {
     title: 'SaveClipt – Descarga videos de YouTube en MP4 o MP3',
@@ -31,6 +27,9 @@ export const metadata = {
     images: ['https://saveclipt.com/favicon.png'],
   },
 }
+
+
+
 
 export default function Home() {
   return (
