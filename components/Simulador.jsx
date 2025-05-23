@@ -57,7 +57,7 @@ export default function Simulador() {
     if (now - lastPopunderTime.current >= 30000) {
       lastPopunderTime.current = now
       if (window._dvvosq) {
-        setTimeout(() => window._dvvosq(), 300) // leve delay
+        setTimeout(() => window._dvvosq(), 300)
       }
     }
   }
@@ -66,21 +66,25 @@ export default function Simulador() {
     window.open('https://phoampor.top/4/9117239', '_blank')
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setShowPreview(false)
-    setFailed(false)
-    setLoading(true)
-    setProgress(0)
-    setMainDownloadProgress(0)
-    setExtraProgress({ 2: 0, 3: 0, 4: 0 })
-    setMessages({ 2: '', 3: '', 4: '' })
+const handleSubmit = (e) => {
+  e.preventDefault()
+  setShowPreview(false)
+  setFailed(false)
+  setLoading(true)
+  setProgress(0)
+  setMainDownloadProgress(0)
+  setExtraProgress({ 2: 0, 3: 0, 4: 0 })
+  setMessages({ 2: '', 3: '', 4: '' })
 
-    simulateProgress(() => {
-      setLoading(false)
-      setShowPreview(true)
-    }, setProgress)
-  }
+  // ABRIR Luminous link aquí (al hacer clic en “Descargar ahora”)
+  window.open('https://phoampor.top/4/9117234', '_blank')
+
+  simulateProgress(() => {
+    setLoading(false)
+    setShowPreview(true)
+  }, setProgress)
+}
+
 
   const handleFakeDownload = () => {
     launchDirectLink()
@@ -123,10 +127,7 @@ export default function Simulador() {
         <div className="w-full mt-6">
           <p className="text-sm text-gray-600 mb-2">{t.loading}</p>
           <div className="w-full bg-gray-200 rounded-full h-3">
-            <div
-              className="bg-blue-500 h-3 rounded-full transition-all duration-300"
-              style={{ width: `${progress}%` }}
-            ></div>
+            <div className="bg-blue-500 h-3 rounded-full transition-all duration-300" style={{ width: `${progress}%` }}></div>
           </div>
           <p className="text-sm mt-2">{progress}%</p>
         </div>
@@ -138,7 +139,7 @@ export default function Simulador() {
           <div className="flex flex-col items-center gap-4">
             <img
               src={isEnglish ? '/no-preview-en.png' : '/no-preview-es.png'}
-              alt={isEnglish ? 'Preview not available' : 'Vista previa no disponible'}
+              alt="preview"
               className="w-full max-w-md h-auto rounded-lg border shadow"
             />
             <p className="text-center font-semibold text-gray-800">{t.desc}</p>

@@ -21,29 +21,38 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-  
 
+        {/* ✅ Popunder Anti-AdBlock (siempre activo) */}
         <Script
           id="monetag-popunder"
           strategy="afterInteractive"
+          src="https://fpyf8.com/88/tag.min.js"
+          data-zone="125051"
+          async
+          data-cfasync="false"
+        />
+
+        {/* ✅ Vignette solo en móviles */}
+        <Script
+          id="monetag-vignette-mobile"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              (function() {
-                var script = document.createElement('script');
-                script.src = "//madurird.com/tag.min.js";
-                script.setAttribute("data-zone", "9117120"); // <-- tu ID de zona Popunder
-                script.setAttribute("data-cfasync", "false");
-                script.async = true;
-                script.onerror = function () { window._lxwahpa && window._lxwahpa(); };
-                script.onload = function () { window._dvvosq && window._dvvosq(); };
-                document.head.appendChild(script);
-              })();
+              if (window.innerWidth <= 768) {
+                (function(d,z,s){
+                  s.src='https://'+d+'/401/'+z;
+                  try{(document.body||document.documentElement).appendChild(s)}
+                  catch(e){}
+                })('gizokraijaw.net',8736712,document.createElement('script'));
+              }
             `,
           }}
         />
       </body>
     </html>
-  );
+  )
 }
+
+
