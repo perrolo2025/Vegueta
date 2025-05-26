@@ -1,17 +1,15 @@
-import { Metadata } from 'next'
-
-export const metadata= {
-  title: 'Guía completa para descargar videos de YouTube en MP4 y MP3 con SaveClipt',
+export const metadata = {
+  title: 'Descargar Videos de YouTube GRATIS y Rápido en MP4 y MP3 – Guía Completa | SaveClipt',
   description:
-    'Aprende cómo descargar videos de YouTube gratis en MP4 o MP3 usando SaveClipt. Guía paso a paso compatible con PC, Android, iPhone y cualquier navegador.',
+    'Aprende a descargar videos de YouTube gratis en MP4 o MP3 de forma rápida y segura con SaveClipt. Guía paso a paso compatible con PC, Android, iPhone y cualquier navegador. Sin apps ni registro.',
   keywords: [
-    'guía descargar videos YouTube',
-    'como usar SaveClipt',
+    'descargar videos YouTube gratis',
     'convertir YouTube a MP3',
-    'descargar YouTube MP4 1080p',
-    'descargar videos sin programas',
-    'descargador YouTube gratuito',
-    'YouTube downloader paso a paso',
+    'guardar videos en MP4 1080p',
+    'SaveClipt guía completa',
+    'descargar YouTube sin apps',
+    'YouTube downloader rápido',
+    'tutorial descargar videos YouTube',
   ],
   alternates: {
     canonical: 'https://saveclipt.com/es/guia',
@@ -20,18 +18,18 @@ export const metadata= {
     },
   },
   openGraph: {
-    title: 'Guía para descargar videos de YouTube gratis | SaveClipt',
+    title: 'Descargar Videos de YouTube GRATIS y Rápido – MP4 y MP3 | Guía SaveClipt',
     description:
-      '¿Quieres descargar videos de YouTube en MP4 o MP3? Esta guía paso a paso te muestra cómo hacerlo fácilmente con SaveClipt desde cualquier dispositivo.',
+      'Sigue esta guía completa para descargar videos de YouTube en MP4 o MP3 gratis y al instante. Compatible con todos los dispositivos y navegadores. Sin apps ni marcas de agua.',
     url: 'https://saveclipt.com/es/guia',
     type: 'article',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Guía: Cómo descargar videos de YouTube con SaveClipt',
+    title: 'Descargar YouTube GRATIS y Rápido – MP4 y MP3 | Guía SaveClipt',
     description:
-      'Descubre cómo descargar videos de YouTube paso a paso con SaveClipt. MP4, MP3, sin apps, sin registro, 100% gratis.',
+      'Aprende paso a paso a descargar videos de YouTube en MP4 o MP3 gratis con SaveClipt. Sin apps, sin marcas de agua, seguro y rápido. Compatible con cualquier dispositivo.',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }

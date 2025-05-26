@@ -1,16 +1,15 @@
-
 export const metadata = {
-  title: 'FAQ – YouTube Video Downloader and Converter (MP4 & MP3) | SaveClipt',
+  title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt FAQ',
   description:
-    'Get answers to the most common questions about downloading YouTube videos in MP4 and MP3 with SaveClipt. 100% free, no registration, and totally secure.',
+    'Learn how to download YouTube videos in MP4 and MP3 formats for free and instantly with SaveClipt. No apps, no registration, and 100% secure. Get started now!',
   keywords: [
-    'FAQ YouTube downloader',
-    'how to download YouTube videos',
+    'download YouTube videos free',
     'convert YouTube to MP3',
-    'download MP4 1080p YouTube',
-    'free YouTube video converter',
-    'SaveClipt safe and legal',
-    'YouTube Shorts downloader',
+    'save YouTube videos 1080p MP4',
+    'fast YouTube video downloader',
+    'free YouTube converter MP3 MP4',
+    'SaveClipt FAQ guide',
+    'YouTube Shorts downloader tool',
   ],
   alternates: {
     canonical: 'https://saveclipt.com/en/faq',
@@ -19,21 +18,22 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'SaveClipt FAQ – Convert YouTube to MP4 & MP3 Instantly',
+    title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt',
     description:
-      'Learn everything about SaveClipt: how to download YouTube videos for free, how it works, and what to do if something fails. Fast, safe, no software needed.',
+      'SaveClipt is your free and secure tool for downloading YouTube videos in MP4 and MP3 formats. Learn how it works and start downloading instantly.',
     url: 'https://saveclipt.com/en/faq',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FAQ – Free YouTube Video Downloader (MP4 & MP3) | SaveClipt',
+    title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt',
     description:
-      'Have questions about downloading YouTube videos? This FAQ explains how SaveClipt works, supported formats, safety, and more.',
+      'Learn how to download YouTube videos in MP4 and MP3 formats for free with SaveClipt. No software, no registration – just fast and easy downloading!',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }
+
 
 export default function FAQPageEN() {
   const faqSchema = {
