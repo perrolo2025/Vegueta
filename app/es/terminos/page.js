@@ -1,9 +1,15 @@
-
 export const metadata = {
   title: 'Términos y Condiciones de Uso | SaveClipt',
   description:
     'Consulta los términos de uso de SaveClipt. Entendé cómo usar nuestra herramienta de forma responsable, segura y dentro del marco legal.',
+  alternates: {
+    canonical: 'https://saveclipt.com/es/terminos', // sin slash final, consistente con lo indexado
+    languages: {
+      en: 'https://saveclipt.com/en/terms',
+    },
+  },
 }
+
 
 export default function TerminosES() {
   return (

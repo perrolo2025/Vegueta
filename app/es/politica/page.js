@@ -2,7 +2,14 @@ export const metadata = {
   title: 'Política de Privacidad | SaveClipt',
   description:
     'Lee la política de privacidad de SaveClipt. Protegemos tu información personal. No rastreamos, no almacenamos datos, y no pedimos registro.',
+  alternates: {
+    canonical: 'https://saveclipt.com/es/politica', // sin slash final, consistente con lo indexado
+    languages: {
+      en: 'https://saveclipt.com/en/privacy',
+    },
+  },
 }
+
 
 export default function PoliticaPrivacidadES() {
   return (

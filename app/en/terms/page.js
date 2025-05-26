@@ -2,7 +2,14 @@ export const metadata = {
   title: 'Terms of Use | SaveClipt YouTube Downloader',
   description:
     'Read the official Terms of Use for SaveClipt. Learn how to use our YouTube downloader responsibly, securely, and within legal boundaries.',
+  alternates: {
+    canonical: 'https://saveclipt.com/en/terms', // sin slash final, consistente con lo indexado
+    languages: {
+      es: 'https://saveclipt.com/es/terminos',
+    },
+  },
 }
+
 
 export default function TermsEN() {
   return (

@@ -8,16 +8,16 @@ export const metadata = {
   keywords:
     'download YouTube videos, convert YouTube to MP3, YouTube MP4 downloader, high quality MP3, SaveClipt, free YouTube video downloader, online YouTube converter, HD videos no watermark',
   alternates: {
-    canonical: 'https://saveclipt.com/en/',
+    canonical: 'https://saveclipt.com/en',
     languages: {
-      es: 'https://saveclipt.com/es/',
+      es: 'https://saveclipt.com/es',
     },
   },
   openGraph: {
     title: 'Download YouTube Videos – MP4 or MP3 for Free | SaveClipt',
     description:
       'Convert any YouTube video to MP4 or MP3 instantly with SaveClipt. Fast, free, and no installation required.',
-    url: 'https://saveclipt.com/en/',
+    url: 'https://saveclipt.com/en',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },

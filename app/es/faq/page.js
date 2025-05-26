@@ -1,5 +1,3 @@
-import { Metadata } from 'next'
-
 export const metadata = {
   title: 'Preguntas Frecuentes sobre SaveClipt – Convertidor y Descargador YouTube MP4 y MP3',
   description:

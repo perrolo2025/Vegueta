@@ -2,7 +2,14 @@ export const metadata = {
   title: 'Contact – Support and Inquiries | SaveClipt',
   description:
     'Need help or have suggestions? Contact the SaveClipt team for technical support, feedback, or business inquiries. We reply quickly and are here to help.',
+  alternates: {
+    canonical: 'https://saveclipt.com/en/contact', // sin slash final, consistente con lo indexado
+    languages: {
+      es: 'https://saveclipt.com/es/contacto',
+    },
+  },
 }
+
 
 export default function ContactPageEN() {
   const contactSchema = {

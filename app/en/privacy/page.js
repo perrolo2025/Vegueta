@@ -1,9 +1,13 @@
-
-
-export const metadata= {
+export const metadata = {
   title: 'Privacy Policy | SaveClipt YouTube Downloader',
   description:
     'Read the SaveClipt Privacy Policy. We do not track, store, or collect personal data. 100% anonymous, no registration, no tracking, no cookies.',
+  alternates: {
+    canonical: 'https://saveclipt.com/en/privacy', // sin slash final, consistente con lo indexado
+    languages: {
+      es: 'https://saveclipt.com/es/politica',
+    },
+  },
 }
 
 export default function PrivacyPolicyEN() {

@@ -1,7 +1,12 @@
-
 export const metadata = {
   title: 'Contacto – Soporte y consultas | SaveClipt',
   description: '¿Tenés dudas o sugerencias? Contactá al equipo de SaveClipt para soporte técnico, reportes o alianzas. Respondemos rápido y estamos para ayudarte.',
+  alternates: {
+    canonical: 'https://saveclipt.com/es/contacto', // sin slash final, consistente con lo indexado
+    languages: {
+      en: 'https://saveclipt.com/en/contact',
+    },
+  },
 }
 
 export default function ContactoPage() {

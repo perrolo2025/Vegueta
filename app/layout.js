@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SaveClipt",
   description: "Fast and secure YouTube downloader.",
-  metadataBase: new URL("https://saveclipt.com"),
+  metadataBase: new URL("https://saveclipt.com/"),
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

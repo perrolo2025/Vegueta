@@ -5,7 +5,7 @@ export const metadata = {
   description:
     'Bienvenido a SaveClipt. Descarga videos de YouTube en MP4 HD o MP3 320kbps. Rápido, gratis, sin apps y compatible con todos los dispositivos.',
   alternates: {
-    canonical: 'https://saveclipt.com',
+    canonical: 'https://saveclipt.com/',
     languages: {
       es: 'https://saveclipt.com/es',
       en: 'https://saveclipt.com/en',

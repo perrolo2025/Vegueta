@@ -1,7 +1,6 @@
 
 import { Download, PlayCircle } from 'lucide-react'
 import Simulador from "@/components/Simulador";
-import Image from 'next/image'
 
 export const metadata =  {
   title: 'Descargar videos de YouTube en MP4 o MP3 gratis | SaveClipt',
@@ -10,16 +9,16 @@ export const metadata =  {
   keywords:
     'descargar videos de YouTube, convertir YouTube a MP3, descargador YouTube MP4, YouTube MP3 alta calidad, SaveClipt, herramienta para descargar YouTube, convertidor YouTube en línea, videos HD sin marca de agua',
   alternates: {
-    canonical: 'https://saveclipt.com/es/',
+    canonical: 'https://saveclipt.com/es',
     languages: {
-      en: 'https://saveclipt.com/en/',
+      en: 'https://saveclipt.com/en',
     },
   },
   openGraph: {
     title: 'Descargar videos de YouTube – MP4 o MP3 gratis | SaveClipt',
     description:
       'Convierte cualquier video de YouTube a MP4 o MP3 al instante con SaveClipt. Gratis, rápido y sin necesidad de instalar nada.',
-    url: 'https://saveclipt.com/es/',
+    url: 'https://saveclipt.com/es',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },
