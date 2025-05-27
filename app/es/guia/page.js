@@ -79,6 +79,18 @@ export default function GuiaES() {
         Si buscás un <strong>convertidor de YouTube confiable</strong>, esta es la herramienta
         ideal. Simple, intuitiva y segura.
       </p>
+
+      <div className="mt-10 flex justify-center">
+  <a
+    href="https://saveclipt.com/es"
+    className="inline-block px-8 py-4 text-white text-lg font-semibold rounded-lg shadow hover:opacity-90 transition"
+    style={{ backgroundColor: '#ff0000' }} // Rojo del logo SaveClipt
+  >
+    Seguir descargando más videos
+  </a>
+</div>
+
+
     </main>
   )
 }

@@ -74,6 +74,17 @@ export default function GuideEN() {
       <p className="mt-4 text-gray-600 text-sm">
         Looking for a <strong>trusted YouTube converter</strong>? This is your go-to tool. Simple, safe, and reliable.
       </p>
+      <div className="mt-10 flex justify-center">
+  <a
+    href="https://saveclipt.com/en"
+    className="inline-block px-8 py-4 text-white text-lg font-semibold rounded-lg shadow hover:opacity-90 transition"
+    style={{ backgroundColor: '#ff0000' }} // Rojo del logo SaveClipt
+  >
+    Keep Downloading More Videos
+  </a>
+</div>
+
+
     </main>
   )
 }
