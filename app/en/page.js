@@ -231,22 +231,21 @@ export default function HomePageEN() {
   </h2>
 
   <p className="mb-2">
-    <strong>SaveClipt</strong> is an independent online tool and is not affiliated with, endorsed by, or connected to <strong>YouTube™, Google LLC</strong>, or any third-party content provider.
+    <strong>SaveClipt</strong> is an independent platform and is not affiliated with, endorsed by, or connected to <strong>YouTube™, Google LLC</strong>, or any third-party content provider.
   </p>
 
   <p className="mb-2">
-    This service is intended strictly for <strong>personal, educational, and research purposes</strong>. Users must comply with all applicable <strong>copyright laws, digital content regulations,</strong> and the <strong>YouTube Terms of Service</strong>.
+    This tool is designed strictly for <strong>personal, educational, and research purposes</strong>. Users must comply with all applicable <strong>copyright laws, digital content regulations,</strong> and the <strong>YouTube Terms of Service</strong>.
   </p>
 
   <p className="mb-2">
-    You are solely responsible for the videos and audio files you choose to download. We strongly advise verifying whether a video is under a <strong>Creative Commons license</strong> or if you have explicit permission from the copyright owner.
+    You are solely responsible for any use of this simulation tool. SaveClipt <strong>does not host, store, or facilitate the download of copyrighted content</strong>. This site simulates the experience of downloading videos for demonstration purposes only.
   </p>
 
   <p>
-    SaveClipt does not host or store any copyrighted content on its servers. All downloads are processed on the client side. Any misuse of this downloader is the sole responsibility of the user. We stand by <strong>DMCA compliance</strong>, privacy, and ethical content usage.
+    Any misuse or illegal use of this platform is the sole responsibility of the user. We strictly adhere to <strong>DMCA compliance</strong>, privacy, and ethical content usage.
   </p>
 </section>
-
 
 
     </main>

@@ -2,43 +2,34 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 >
-  <url>
-    <loc>https://saveclipt.com/</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es/faq</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en/faq</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es/guia</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en/guide</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es/politica</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en/privacy</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es/terminos</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en/terms</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/es/contacto</loc>
-  </url>
-  <url>
-    <loc>https://saveclipt.com/en/contact</loc>
-  </url>
+  <url><loc>https://saveclipt.com/</loc></url>
+  <url><loc>https://saveclipt.com/es</loc></url>
+  <url><loc>https://saveclipt.com/en</loc></url>
+
+  <!-- Páginas generales -->
+  <url><loc>https://saveclipt.com/es/faq</loc></url>
+  <url><loc>https://saveclipt.com/en/faq</loc></url>
+  <url><loc>https://saveclipt.com/es/guia</loc></url>
+  <url><loc>https://saveclipt.com/en/guide</loc></url>
+  <url><loc>https://saveclipt.com/es/politica</loc></url>
+  <url><loc>https://saveclipt.com/en/privacy</loc></url>
+  <url><loc>https://saveclipt.com/es/terminos</loc></url>
+  <url><loc>https://saveclipt.com/en/terms</loc></url>
+  <url><loc>https://saveclipt.com/es/contacto</loc></url>
+  <url><loc>https://saveclipt.com/en/contact</loc></url>
+
+  <!-- Índices de artículos -->
+  <url><loc>https://saveclipt.com/es/articulo</loc></url>
+  <url><loc>https://saveclipt.com/en/article</loc></url>
+
+  <!-- Artículos en español -->
+  <url><loc>https://saveclipt.com/es/articulo/como-descargar-videos-youtube</loc></url>
+  <url><loc>https://saveclipt.com/es/articulo/youtube-a-mp3-gratis</loc></url>
+  <url><loc>https://saveclipt.com/es/articulo/descargar-shorts-youtube</loc></url>
+
+  <!-- Articles in English -->
+  <url><loc>https://saveclipt.com/en/article/how-to-download-youtube-videos</loc></url>
+  <url><loc>https://saveclipt.com/en/article/youtube-to-mp3-free</loc></url>
+  <url><loc>https://saveclipt.com/en/article/download-youtube-shorts</loc></url>
+
 </urlset>

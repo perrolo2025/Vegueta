@@ -13,20 +13,25 @@ export default function Header() {
 
   const toggleMenu = () => setMenuOpen((prev) => !prev)
 
-  const navLinks = [
-    {
-      href: isEnglish ? '/en/faq' : '/es/faq',
-      label: isEnglish ? 'FAQ' : 'Preguntas',
-    },
-    {
-      href: isEnglish ? '/en/guide' : '/es/guia',
-      label: isEnglish ? 'Guide' : 'Guía',
-    },
-    {
-      href: isEnglish ? '/en/contact' : '/es/contacto',
-      label: isEnglish ? 'Contact' : 'Contacto',
-    },
-  ]
+const navLinks = [
+  {
+    href: isEnglish ? '/en/faq' : '/es/faq',
+    label: isEnglish ? 'FAQ' : 'Preguntas',
+  },
+  {
+    href: isEnglish ? '/en/guide' : '/es/guia',
+    label: isEnglish ? 'Guide' : 'Guía',
+  },
+  {
+    href: isEnglish ? '/en/article' : '/es/articulo',
+    label: isEnglish ? 'Articles' : 'Artículos',
+  },
+  {
+    href: isEnglish ? '/en/contact' : '/es/contacto',
+    label: isEnglish ? 'Contact' : 'Contacto',
+  },
+]
+
 
   return (
     <motion.header

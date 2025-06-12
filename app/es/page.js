@@ -220,21 +220,21 @@ export default function HomePageES() {
 </section>
 
 
-  <section id="aviso-legal" className="text-sm text-gray-500 border-t pt-6 mt-16">
+<section id="aviso-legal" className="text-sm text-gray-500 border-t pt-6 mt-16">
   <h2 className="text-base font-semibold text-gray-700 mb-2">
     ⚖️ Aviso legal y política de uso responsable
   </h2>
   <p className="mb-2">
-    <strong>SaveClipt</strong> es una plataforma independiente que no está afiliada, patrocinada ni respaldada por <strong>YouTube™, Google LLC</strong> ni por ninguna entidad relacionada.
+    <strong>SaveClipt</strong> es una plataforma independiente que no está afiliada, patrocinada ni respaldada por <strong>YouTube™, Google LLC</strong> ni por ninguna entidad oficial. 
   </p>
   <p className="mb-2">
-    Esta herramienta fue diseñada con fines educativos, personales y de investigación. El uso de SaveClipt debe respetar las leyes de <strong>derechos de autor (copyright)</strong> y las políticas de contenido de las plataformas desde las cuales se extrae el material.
+    Esta herramienta es una simulación con fines exclusivamente educativos, personales y de investigación. SaveClipt no facilita la descarga real de contenido y no promueve la infracción de derechos de autor.
   </p>
   <p className="mb-2">
-    El usuario asume toda responsabilidad sobre los contenidos descargados mediante esta aplicación. Recomendamos verificar si el video tiene licencia de uso libre o si cuentas con autorización del autor.
+    El usuario es responsable de verificar el cumplimiento de las leyes de <strong>derechos de autor (copyright)</strong> y de respetar las políticas de contenido de las plataformas de origen. SaveClipt no se hace responsable por el uso indebido del sitio ni por el contenido que el usuario decida simular o visualizar.
   </p>
   <p>
-    Cualquier infracción al uso correcto de esta herramienta está fuera del alcance y responsabilidad de SaveClipt. Reiteramos nuestro compromiso con la legalidad, privacidad y transparencia en cada descarga realizada.
+    Al utilizar SaveClipt, aceptas que esta herramienta es una demostración técnica y que cualquier intento de usarla con fines distintos a los educativos o de prueba es bajo tu exclusiva responsabilidad. 
   </p>
 </section>
 

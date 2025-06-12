@@ -19,26 +19,26 @@ export default function TermsEN() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">1. Acceptable Use</h2>
         <p className="text-gray-700">
-          By using SaveClipt, you agree to use it solely for personal and non-commercial purposes.
-          You must not use the service to infringe copyrights or to distribute downloaded content
-          for commercial gain.
+          By using SaveClipt, you agree to use it solely for personal, educational, and research purposes.
+          This platform is a simulation tool and does not provide real downloads. Any use of the content
+          simulated is at your own responsibility and should comply with applicable laws.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">2. Intellectual Property</h2>
         <p className="text-gray-700">
-          SaveClipt does not host or store any videos. All rights belong to their respective owners
-          (e.g., YouTube and content creators). You are fully responsible for ensuring legal usage
-          of the downloaded content.
+          SaveClipt does not host, store, or distribute any actual videos or audio files. All rights belong to
+          their respective owners (e.g., YouTube and content creators). You are fully responsible for ensuring
+          compliance with copyright laws and platform terms.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">3. Liability</h2>
         <p className="text-gray-700">
-          Your use of this site is at your own risk. SaveClipt is not liable for misuse of the
-          downloaded content or any damage caused to third parties.
+          Your use of this simulated site is at your own risk. SaveClipt is not liable for any misuse of
+          simulated downloads or any harm caused to third parties. This is a demonstration platform only.
         </p>
       </section>
 
@@ -46,7 +46,7 @@ export default function TermsEN() {
         <h2 className="text-xl font-semibold mb-2">4. Updates and Changes</h2>
         <p className="text-gray-700">
           These terms may be updated at any time without prior notice. We recommend reviewing them
-          regularly to stay informed of any changes.
+          regularly to stay informed of any changes. Continued use of SaveClipt indicates acceptance of these terms.
         </p>
       </section>
     </main>

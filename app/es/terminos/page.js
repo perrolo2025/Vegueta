@@ -10,7 +10,6 @@ export const metadata = {
   },
 }
 
-
 export default function TerminosES() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-12">
@@ -19,32 +18,28 @@ export default function TerminosES() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">1. Uso aceptado</h2>
         <p className="text-gray-700">
-          Al usar SaveClipt, aceptás que solo lo harás con fines personales y no comerciales. No
-          podés usar el servicio para violar derechos de autor ni distribuir contenido descargado.
+          Al utilizar SaveClipt, aceptas que esta es una herramienta de simulación para fines exclusivamente educativos, personales y de investigación. SaveClipt no facilita descargas reales ni promueve el uso no autorizado de contenidos.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">2. Propiedad intelectual</h2>
         <p className="text-gray-700">
-          SaveClipt no almacena ni aloja videos. Todos los derechos pertenecen a sus respectivos
-          propietarios (YouTube y creadores). Es tu responsabilidad usar el contenido de manera legal.
+          SaveClipt no almacena, aloja ni distribuye videos. Todos los derechos pertenecen a sus respectivos propietarios (YouTube, Google LLC y creadores). Es responsabilidad del usuario respetar las leyes de derechos de autor y las políticas de las plataformas de origen.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">3. Responsabilidad</h2>
         <p className="text-gray-700">
-          El uso del sitio es bajo tu propio riesgo. SaveClipt no se hace responsable por el mal uso
-          del contenido descargado ni por daños a terceros.
+          El uso de SaveClipt es bajo tu propio riesgo. Esta herramienta es una demostración técnica y cualquier intento de usarla para finalidades distintas a las educativas será bajo tu exclusiva responsabilidad. SaveClipt no se hace responsable por infracciones legales, daños o reclamaciones de terceros.
         </p>
       </section>
 
       <section>
         <h2 className="text-xl font-semibold mb-2">4. Modificaciones</h2>
         <p className="text-gray-700">
-          Estos términos pueden actualizarse sin previo aviso. Te recomendamos revisarlos
-          periódicamente para estar al tanto de los cambios.
+          Estos términos y condiciones pueden actualizarse sin previo aviso. Te recomendamos revisarlos periódicamente para mantenerte informado sobre posibles cambios.
         </p>
       </section>
     </main>

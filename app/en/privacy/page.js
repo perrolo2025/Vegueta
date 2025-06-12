@@ -18,40 +18,43 @@ export default function PrivacyPolicyEN() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">1. Introduction</h2>
         <p className="text-gray-700">
-          At <strong>SaveClipt</strong>, we fully respect your privacy. This policy explains what
-          data we collect (none), how we protect your session (anonymous), and how you can use our
-          service safely and securely.
+          At <strong>SaveClipt</strong>, we respect your privacy. This simulator tool is designed for
+          educational and demonstration purposes only. We do not collect, process, or store any
+          personal data from users.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">2. No Personal Data Collection</h2>
         <p className="text-gray-700">
-          We do not request your name, email, or any personal information. SaveClipt does not
-          require registration or store identifiable cookies.
+          SaveClipt does not request your name, email, or any personal information. No registration
+          is required and no identifiable cookies or tracking data are used. This tool is purely a
+          simulation.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">3. Third-Party Tools</h2>
+        <h2 className="text-xl font-semibold mb-2">3. Third-Party Services</h2>
         <p className="text-gray-700">
-          We may use ad services like Google AdSense or Monetag. These platforms may use cookies to
-          show relevant ads, but we do not share or sell your information.
+          We may display ads using services like Google AdSense or Monetag. These platforms may use
+          cookies to serve ads relevant to you. However, we do not collect, share, or sell any data.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">4. Security and HTTPS</h2>
         <p className="text-gray-700">
-          SaveClipt uses HTTPS encryption for secure browsing. We do not store video links, browsing
-          history, or user data. Your activity is completely anonymous.
+          SaveClipt uses HTTPS encryption to protect your browsing. No downloads, links, or history
+          are stored. Your use of this site is completely anonymous and intended solely for
+          educational demonstration purposes.
         </p>
       </section>
 
       <section>
         <h2 className="text-xl font-semibold mb-2">5. Changes to This Policy</h2>
         <p className="text-gray-700">
-          This policy may be updated periodically. If you have questions or concerns, contact us at{' '}
+          We may update this privacy policy as needed. If you have any questions, please contact us
+          at{' '}
           <a
             href="mailto:saveclip252@gmail.com"
             className="text-blue-600 hover:underline"
