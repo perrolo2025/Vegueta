@@ -28,6 +28,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+
+        <head>
+        {/* ✅ Meta de verificación Yandex */}
+        <meta name="yandex-verification" content="2e318a357cb8edd9" />
+      </head>
+      
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
 
