@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
-  <url><loc>https://saveclipt.com/</loc></url>
-  <url><loc>https://saveclipt.com/es</loc></url>
-  <url><loc>https://saveclipt.com/en</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://saveclipt.com/</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en</loc><lastmod>2025-07-10</lastmod></url>
 
   <!-- Páginas generales -->
-  <url><loc>https://saveclipt.com/es/faq</loc></url>
-  <url><loc>https://saveclipt.com/en/faq</loc></url>
-  <url><loc>https://saveclipt.com/es/guia</loc></url>
-  <url><loc>https://saveclipt.com/en/guide</loc></url>
-  <url><loc>https://saveclipt.com/es/politica</loc></url>
-  <url><loc>https://saveclipt.com/en/privacy</loc></url>
-  <url><loc>https://saveclipt.com/es/terminos</loc></url>
-  <url><loc>https://saveclipt.com/en/terms</loc></url>
-  <url><loc>https://saveclipt.com/es/contacto</loc></url>
-  <url><loc>https://saveclipt.com/en/contact</loc></url>
+  <url><loc>https://saveclipt.com/es/faq</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/faq</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es/guia</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/guide</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es/politica</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/privacy</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es/terminos</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/terms</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es/contacto</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/contact</loc><lastmod>2025-07-10</lastmod></url>
 
   <!-- Índices de artículos -->
-  <url><loc>https://saveclipt.com/es/articulo</loc></url>
-  <url><loc>https://saveclipt.com/en/article</loc></url>
+  <url><loc>https://saveclipt.com/es/articulo</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/article</loc><lastmod>2025-07-10</lastmod></url>
 
   <!-- Artículos en español -->
-  <url><loc>https://saveclipt.com/es/articulo/como-descargar-videos-youtube</loc></url>
-  <url><loc>https://saveclipt.com/es/articulo/youtube-a-mp3-gratis</loc></url>
+  <url><loc>https://saveclipt.com/es/articulo/como-descargar-videos-youtube</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/es/articulo/youtube-a-mp3-gratis</loc><lastmod>2025-07-10</lastmod></url>
 
   <!-- Articles in English -->
-  <url><loc>https://saveclipt.com/en/article/how-to-download-youtube-videos</loc></url>
-  <url><loc>https://saveclipt.com/en/article/youtube-to-mp3-free</loc></url>
-
+  <url><loc>https://saveclipt.com/en/article/how-to-download-youtube-videos</loc><lastmod>2025-07-10</lastmod></url>
+  <url><loc>https://saveclipt.com/en/article/youtube-to-mp3-free</loc><lastmod>2025-07-10</lastmod></url>
 
 </urlset>
