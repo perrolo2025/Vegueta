@@ -2,13 +2,14 @@ import Link from "next/link";
 import { MusicIcon, YoutubeIcon, DownloadIcon } from "lucide-react";
 
 export const metadata = {
-  title: "Convertir YouTube a MP3 gratis en 2025 | SaveClipt",
+  title: "🎧 Convertir YouTube a MP3 Gratis – Rápido y Sin Instalar | SaveClipt",
   description:
-    "Convertí videos de YouTube a MP3 gratis, sin instalar programas. Extraé solo el audio en segundos con SaveClipt. Compatible con PC, Android y iPhone.",
+    "Extraé el audio de cualquier video de YouTube en segundos y convertí a MP3 gratis. Sin programas, sin registro y sin marcas de agua. Funciona en PC, Android y iPhone.",
   alternates: {
     canonical: "https://saveclipt.com/es/articulo/youtube-a-mp3-gratis",
   },
 };
+
 
 export default function YoutubeMp3GratisPage() {
   return (

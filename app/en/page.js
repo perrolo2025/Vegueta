@@ -2,11 +2,11 @@ import { Download, PlayCircle } from 'lucide-react'
 import Simulador from '@/components/Simulador'
 
 export const metadata = {
-  title: 'Download YouTube Videos in MP4 or MP3 for Free | SaveClipt',
+  title: '📥 Download YouTube Videos in MP4 or MP3 – Free & No Watermark | SaveClipt',
   description:
-    'Use SaveClipt to convert and download YouTube videos in MP4 or MP3 format instantly. No registration, completely free, and works on all devices.',
+    '🎧 Convert and download YouTube videos to MP4 or MP3 in seconds. 100% free, no registration, no watermark, and works perfectly on all devices.',
   keywords:
-    'download YouTube videos, convert YouTube to MP3, YouTube MP4 downloader, high quality MP3, SaveClipt, free YouTube video downloader, online YouTube converter, HD videos no watermark',
+    'download YouTube videos, YouTube to MP3, MP4 YouTube downloader, free YouTube converter, SaveClipt, HD no watermark, fast YouTube download, convert videos online',
   alternates: {
     canonical: 'https://saveclipt.com/en',
     languages: {
@@ -14,18 +14,18 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Download YouTube Videos – MP4 or MP3 for Free | SaveClipt',
+    title: '📥 Download YouTube Videos – MP4 or MP3 Free & Fast | SaveClipt',
     description:
-      'Convert any YouTube video to MP4 or MP3 instantly with SaveClipt. Fast, free, and no installation required.',
+      'Convert YouTube videos to MP4 or MP3 instantly. No registration, no watermark, 100% free and mobile-friendly.',
     url: 'https://saveclipt.com/en',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Download YouTube Videos – MP4 & MP3 Free | SaveClipt',
+    title: 'Download YouTube Videos – Free MP4 & MP3 Converter | SaveClipt',
     description:
-      'Easily download or convert YouTube videos to MP3 using SaveClipt. Fast, free, and works on all devices. No registration required.',
+      'Fast & secure YouTube downloader. Convert to MP3 or MP4 for free. No login, no watermark – just paste and download!',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }

@@ -1,15 +1,15 @@
 export const metadata = {
-  title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt FAQ',
+  title: '❓ How to Download YouTube Videos – MP4 & MP3 FREE & FAST | SaveClipt FAQ',
   description:
-    'Learn how to download YouTube videos in MP4 and MP3 formats for free and instantly with SaveClipt. No apps, no registration, and 100% secure. Get started now!',
+    'Need help using SaveClipt? Learn how to download YouTube videos in MP4 or MP3 for free – no apps, no sign-up, and 100% secure. Start now with our quick FAQ!',
   keywords: [
     'download YouTube videos free',
     'convert YouTube to MP3',
-    'save YouTube videos 1080p MP4',
+    'SaveClipt FAQ',
     'fast YouTube video downloader',
-    'free YouTube converter MP3 MP4',
-    'SaveClipt FAQ guide',
-    'YouTube Shorts downloader tool',
+    'MP4 and MP3 download YouTube',
+    'how to download YouTube shorts',
+    'secure YouTube converter tool',
   ],
   alternates: {
     canonical: 'https://saveclipt.com/en/faq',
@@ -18,21 +18,22 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt',
+    title: '❓ YouTube Downloader FAQ – Free MP4 & MP3 with SaveClipt',
     description:
-      'SaveClipt is your free and secure tool for downloading YouTube videos in MP4 and MP3 formats. Learn how it works and start downloading instantly.',
+      'Everything you need to know about downloading YouTube videos for free with SaveClipt. Safe, fast, and no installation required. Read the FAQ and start now!',
     url: 'https://saveclipt.com/en/faq',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt',
+    title: '❓ Download YouTube Videos – Free & Fast Help Guide | SaveClipt FAQ',
     description:
-      'Learn how to download YouTube videos in MP4 and MP3 formats for free with SaveClipt. No software, no registration – just fast and easy downloading!',
+      'Got questions? Our FAQ explains how to download YouTube videos as MP4 or MP3 using SaveClipt. No software, no registration – just fast and secure access.',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }
+
 
 
 export default function FAQPageEN() {

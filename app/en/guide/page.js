@@ -1,15 +1,15 @@
 export const metadata = {
-  title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | Complete SaveClipt Guide',
+  title: '📥 Download YouTube Videos in MP4 & MP3 – FREE, FAST & No Apps | SaveClipt Guide',
   description:
-    'Learn how to download YouTube videos in MP4 or MP3 format for free, instantly, and without apps. Step-by-step guide for PC, Android, iPhone, and all browsers with SaveClipt.',
+    '🔧 Step-by-step guide to download YouTube videos as MP4 or MP3 instantly. 100% free, no registration, no apps. Works on Android, iPhone, PC and all browsers.',
   keywords: [
     'download YouTube videos free',
-    'convert YouTube to MP3',
-    'save YouTube videos 1080p MP4',
-    'MP3 320kbps YouTube download',
-    'fast and easy YouTube downloader',
+    'YouTube to MP3 320kbps',
+    'save YouTube videos MP4 HD',
+    'fast YouTube downloader',
     'free YouTube converter tool',
-    'YouTube video download tutorial',
+    'how to download YouTube tutorial',
+    'SaveClipt guide YouTube download',
   ],
   alternates: {
     canonical: 'https://saveclipt.com/en/guide',
@@ -18,18 +18,18 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Download YouTube Videos in MP4 & MP3 FREE & FAST | SaveClipt Guide',
+    title: '📥 How to Download YouTube Videos – Free MP4 & MP3 | SaveClipt Guide',
     description:
-      'Discover the ultimate guide to downloading YouTube videos in MP4 or MP3, free and instantly. No apps, no registration, compatible with all devices and browsers. Start downloading now!',
+      'Learn how to download YouTube videos in high quality MP4 or MP3. 100% free, no apps needed, works everywhere. Follow this simple SaveClipt guide.',
     url: 'https://saveclipt.com/en/guide',
     type: 'article',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Download YouTube Videos FREE & FAST | SaveClipt Guide',
+    title: '📥 YouTube Video Download Guide – Free MP4 & MP3 | SaveClipt',
     description:
-      'Step-by-step guide for downloading YouTube videos in MP4 or MP3, free, with SaveClipt. Fast, easy, and works on any device. Start now!',
+      'Use this simple SaveClipt guide to download YouTube videos in MP4 or MP3 format. No software, no signup. Works on all devices!',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }

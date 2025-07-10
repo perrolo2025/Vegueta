@@ -3,13 +3,14 @@ import { ChevronRight } from "lucide-react";
 
 
 export const metadata = {
-  title: "Guides to Download YouTube Videos and Convert to MP3 | SaveClipt 2025",
+  title: "📚 How to Download YouTube Videos & Convert to MP3 – Free Guides | SaveClipt",
   description:
-    "Discover our step-by-step tutorials to download YouTube videos for free, convert videos to MP3, and use SaveClipt on mobile or desktop. Updated for 2025.",
+    "Explore simple step-by-step guides to download YouTube videos, convert to MP3 or MP4, and use SaveClipt on any device. No apps, no registration – just fast and free tutorials.",
   alternates: {
     canonical: "https://saveclipt.com/en/article",
   },
 };
+
 
 
 const articles = [

@@ -2,9 +2,9 @@ import Link from "next/link";
 import { MusicIcon, YoutubeIcon, DownloadIcon } from "lucide-react";
 
 export const metadata = {
-  title: "Convert YouTube to MP3 for Free in 2025 | SaveClipt",
+  title: "🎧 Convert YouTube to MP3 Instantly – Free & No Sign-up | SaveClipt",
   description:
-    "Convert YouTube videos to MP3 for free in seconds. No registration or installation required. Use SaveClipt to extract audio from YouTube now.",
+    "Extract audio from any YouTube video and convert it to high-quality MP3 in seconds. 100% free, no registration, and works on any device. Try it now with SaveClipt!",
   alternates: {
     canonical: "https://saveclipt.com/en/article/youtube-to-mp3-free",
   },

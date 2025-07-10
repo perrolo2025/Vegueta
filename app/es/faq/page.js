@@ -1,15 +1,15 @@
 export const metadata = {
-  title: 'Descargar Videos de YouTube GRATIS y Rápido en MP4 y MP3 – FAQ SaveClipt',
+  title: '❓ Cómo Descargar Videos de YouTube GRATIS – MP4 y MP3 Rápido | FAQ SaveClipt',
   description:
-    'Aprende cómo descargar videos de YouTube gratis en MP4 y MP3 con SaveClipt. Rápido, sin marcas de agua, sin registro y 100% seguro. Descubre cómo funciona y resuelve tus dudas.',
+    '¿Dudas sobre SaveClipt? Aquí te explicamos cómo descargar videos y Shorts de YouTube en MP4 o MP3 sin apps, sin marcas de agua y totalmente gratis. Guía rápida y segura.',
   keywords: [
     'descargar videos YouTube gratis',
     'convertir YouTube a MP3',
-    'YouTube MP3 320kbps gratis',
-    'SaveClipt preguntas frecuentes',
+    'YouTube MP3 320kbps sin apps',
+    'FAQ SaveClipt',
     'descargar Shorts YouTube rápido',
-    'convertidor YouTube a MP4 HD',
-    'tutorial SaveClipt seguro',
+    'convertidor MP4 HD YouTube',
+    'preguntas frecuentes SaveClipt',
   ],
   alternates: {
     canonical: 'https://saveclipt.com/es/faq',
@@ -18,18 +18,18 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Descargar YouTube GRATIS y Rápido – MP4 y MP3 | FAQ SaveClipt',
+    title: '❓ Preguntas Frecuentes SaveClipt – Descargar YouTube MP4 y MP3 Gratis',
     description:
-      'Resuelve todas tus dudas sobre SaveClipt, el convertidor más rápido y seguro para descargar videos y Shorts de YouTube en MP4 o MP3. Descubre cómo funciona aquí.',
+      'Resuelve todas tus dudas sobre cómo usar SaveClipt para bajar videos de YouTube gratis, sin registro ni apps. Rápido, seguro y sin marcas de agua.',
     url: 'https://saveclipt.com/es/faq',
     type: 'website',
     images: ['https://saveclipt.com/favicon.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Descargar YouTube GRATIS y Rápido – MP4 y MP3 | FAQ SaveClipt',
+    title: '❓ SaveClipt FAQ – Descargar YouTube Gratis MP4 y MP3 Rápido y Fácil',
     description:
-      'Resuelve tus dudas sobre cómo usar SaveClipt para descargar videos y Shorts de YouTube gratis, sin apps, sin marcas de agua, y en segundos.',
+      'Aprende a usar SaveClipt para bajar videos y Shorts de YouTube sin apps, sin registro y sin marcas de agua. Rápido, gratuito y compatible con todos los dispositivos.',
     images: ['https://saveclipt.com/favicon.png'],
   },
 }

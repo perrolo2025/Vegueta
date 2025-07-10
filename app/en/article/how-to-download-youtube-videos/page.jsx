@@ -2,13 +2,14 @@ import Link from "next/link";
 import { DownloadIcon, YoutubeIcon, SmartphoneIcon } from "lucide-react";
 
 export const metadata = {
-  title: "How to Download YouTube Videos for Free in 2025 | SaveClipt",
+  title: "📥 How to Download YouTube Videos – Free, Fast & No Apps | SaveClipt",
   description:
-    "Step-by-step tutorial 2025: download YouTube videos quickly and for free without installing anything. Convert YouTube to MP4 or MP3 with SaveClipt.",
+    "Learn how to download YouTube videos to MP4 or MP3 in seconds – 100% free, no software, no registration. Updated step-by-step guide that works on all devices.",
   alternates: {
     canonical: "https://saveclipt.com/en/article/how-to-download-youtube-videos",
   },
 };
+
 
 export default function HowToDownloadYouTube() {
   return (
