@@ -1,12 +1,11 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 
 export default function Simulador() {
   const pathname = usePathname()
   const isEnglish = pathname.startsWith('/en')
-  const lastPopunderTime = useRef(0)
 
   const [url, setUrl] = useState('')
   const [loading, setLoading] = useState(false)
@@ -52,51 +51,29 @@ export default function Simulador() {
     }, 600)
   }
 
-  const launchPopunder = () => {
-    const now = Date.now()
-    if (now - lastPopunderTime.current >= 30000) {
-      lastPopunderTime.current = now
-      if (window._dvvosq) {
-        setTimeout(() => window._dvvosq(), 300)
-      }
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setShowPreview(false)
+    setFailed(false)
+    setLoading(true)
+    setProgress(0)
+    setMainDownloadProgress(0)
+    setExtraProgress({ 2: 0, 3: 0, 4: 0 })
+    setMessages({ 2: '', 3: '', 4: '' })
+
+    simulateProgress(() => {
+      setLoading(false)
+      setShowPreview(true)
+    }, setProgress)
   }
-
-  const launchDirectLink = () => {
-    window.open('https://phoampor.top/4/9117239', '_blank')
-  }
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  setShowPreview(false)
-  setFailed(false)
-  setLoading(true)
-  setProgress(0)
-  setMainDownloadProgress(0)
-  setExtraProgress({ 2: 0, 3: 0, 4: 0 })
-  setMessages({ 2: '', 3: '', 4: '' })
-
-  // ABRIR Luminous link aquí (al hacer clic en “Descargar ahora”)
-  window.open('https://phoampor.top/4/9117234', '_blank')
-
-  simulateProgress(() => {
-    setLoading(false)
-    setShowPreview(true)
-  }, setProgress)
-}
-
 
   const handleFakeDownload = () => {
-    launchDirectLink()
-    launchPopunder()
     simulateProgress(() => {
       setFailed(true)
     }, setMainDownloadProgress)
   }
 
   const handleOptionDownload = (option) => {
-    launchDirectLink()
-    launchPopunder()
     simulateProgress(() => {
       setMessages((prev) => ({
         ...prev,
